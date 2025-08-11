@@ -17,7 +17,7 @@ export class User {
   @Exclude()
   password: string;
 
-  @Column({ nullable: true })
+@Column({ nullable: true })
   firstName: string;
 
   @Column({ nullable: true })
